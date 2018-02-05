@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="61px" viewBox="0 0 62 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M27.0286561,52.5923164 L26.7766299,52.5923164 C12.3308145,52.5923164 0.61970407,40.8968011 0.61970407,26.4718661 L0.61970407,26.2194555 C0.61970407,11.7937846 12.3308145,0.0990051844 26.7766299,0.0990051844 L27.0286561,0.0990051844 C41.4752084,0.0990051844 53.185582,11.7937846 53.185582,26.2194555 L53.185582,26.4718661 C53.185582,40.8968011 41.4752084,52.5923164 27.0286561,52.5923164" id="path-1"></path>
+        <filter x="-13.3%" y="-11.4%" width="126.6%" height="126.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.11 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-7" transform="translate(4.000000, 3.000000)">
+            <g id="Fill-15">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use stroke="#ECECEC" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <path d="M21.6976243,22.5162148 L24.4665616,22.5162148 L24.4665616,20.0019774 C24.4665616,18.8930701 24.4968784,17.1835792 25.3588275,16.124671 C26.267738,15.0026688 27.5137004,14.2401834 29.6578731,14.2401834 C33.1514421,14.2401834 34.6221057,14.7056507 34.6221057,14.7056507 L33.9301686,18.5383151 C33.9301686,18.5383151 32.7763456,18.2264163 31.6992064,18.2264163 C30.6226617,18.2264163 29.6578731,18.5871237 29.6578731,19.5930567 L29.6578731,22.5162148 L34.0740249,22.5162148 L33.7655066,26.2601904 L29.6578731,26.2601904 L29.6578731,39.2652975 L24.4665616,39.2652975 L24.4665616,26.2601904 L21.6976243,26.2601904 L21.6976243,22.5162148 Z" id="Fill-9" fill="#535D65"></path>
+        </g>
+    </g>
+</svg>
