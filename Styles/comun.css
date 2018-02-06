@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,100');
 
 
 /* Diseño general sobre los contenedores principales */
@@ -39,7 +39,7 @@ body, html{
   display: inline-block;
   margin: 0px 0px 0px 7px;
   color: #FFF;
-  font-weight: 400;
+  font-weight: 100;
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -55,6 +55,13 @@ body, html{
   color: #FFF;
   font-weight: 400;
   font-size: 2rem;
+}
+
+.descrip-porcent{
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-left: .3em;
 }
 
 .image-descrip{
