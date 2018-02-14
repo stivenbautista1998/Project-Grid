@@ -356,6 +356,8 @@ body, html{
 
 .main__info-footer {
   margin-bottom: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .main__info-footer a, .main__info-footer p{
@@ -378,13 +380,34 @@ body, html{
 /* *********************** MEDIA QUERYS ******************************************** */
 
 
-@media only screen and (max-width: 895px) {
-  
+@media only screen and (max-width: 800px) {
+
+  .design-relacionadas {
+      width: 100%;
+  }
+
+  .content__relacion {
+      width: 100%;
+  }
+
+  .relacion__item {
+      flex-direction: column;
+  }
+
 }
 
 
 
 @media only screen and (max-width: 1023px) {
+
+  .elenco__flex {
+    flex-flow: row wrap;
+  }
+
+  .elenco__item {
+    width: 32%;
+  }
+
   .margin-resize {
     margin-bottom: 1.8rem;
   }
@@ -399,9 +422,6 @@ body, html{
 
 }
 
-@media only screen and (max-width: 480px) {
-  
-}
 
 @media only screen and (max-width: 635px) {
   .table__datos {
@@ -411,6 +431,10 @@ body, html{
   .icon-instagram, .icon-youtube, .icon-facebook, .icon-twiter, .icon-prezi{
     width: 55px;
     height: 55px;
+  }
+
+  .description__image-content {
+    min-width: 132px;
   }
 }
 
@@ -426,6 +450,10 @@ body, html{
   .description {
     padding-top: 1.2em;
     padding-bottom: 1.5em;
+  }
+
+  .description__content {
+      margin-left: 0em;
   }
 
   .icon-page{
@@ -444,12 +472,12 @@ body, html{
     margin-bottom: 2em;
   }
 
-  .main__info-footer a, .main__info-footer p{
-    font-size: 1rem;
+  .elenco__item {
+    width: 100%;
   }
 
-  .info-footer{
-    padding: 2rem 0rem;
+  .main__info-footer a, .main__info-footer p{
+    font-size: 1rem;
   }
 
   .icon-instagram, .icon-youtube, .icon-facebook, .icon-twiter, .icon-prezi{
@@ -501,6 +529,26 @@ body, html{
   .description__directors {
     margin-left: 1.2em;
     font-size: 1.2rem;
+  }
+
+  .relacion__flex {
+    flex-wrap: wrap;
+  }
+
+  .margin-resize-movil {
+    margin-bottom: 1.8rem;
+  }
+
+  .relacion__item {
+      width: 100%;
+  }
+
+  .description__flex {
+    flex-wrap: wrap;
+  }
+
+  .description__image-content {
+    width: 100%;
   }
 
 }
